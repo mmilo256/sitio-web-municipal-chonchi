@@ -4,6 +4,9 @@ import Container from './Container'
 import Button from '../components/Button'
 
 const Hero = () => {
+
+
+
     return (
         <div className='relative h-[40rem]'>
             <img className='absolute inset-0 w-full h-full object-cover object-bottom' src={image} alt="" />

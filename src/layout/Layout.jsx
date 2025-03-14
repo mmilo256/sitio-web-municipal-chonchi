@@ -4,7 +4,7 @@ import Footer from './Footer'
 
 const Layout = ({ children, withHero = false }) => {
   return (
-    <div className='bg-[#f2f2f2] min-h-dvh'>
+    <div className='bg-slate-50 min-h-dvh'>
       <Header withHero={withHero} />
       {children}
       <Footer />

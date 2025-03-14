@@ -23,8 +23,6 @@ const Noticias = () => {
         })()
     }, [])
 
-    console.log(posts)
-
     return (
         <main className='mb-10'>
             <Container>
